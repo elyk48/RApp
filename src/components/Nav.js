@@ -1,6 +1,15 @@
-function Nav() {
+
+
+function Nav(props) {
+    const navStyle ={
+        background: "pink",
+        width: "calc",
+        marginLeft: "10px",
+        
+        }
+    console.log(props)
     return (
-        <nav className="main-nav">
+        <nav className="main-nav" style={navStyle}>
             <ul>
                 <li>Home</li>
                 <li>Articles</li>
